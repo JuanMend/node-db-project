@@ -1,0 +1,313 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: rgb(233, 230, 230);
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	margin: 40px;
+}
+.postImgBody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 23vw;
+	height: 60vh;
+	margin-left: 40vw;
+	margin-top: 30px;
+	background-image: url('https://cdn.pixabay.com/photo/2016/06/29/14/17/joystick-1486908__480.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+img {
+	width: 250px;
+	height: 150px;
+	border-radius: 5px;
+}
+/* Buttons for app.js */
+.createGames {
+	width: 90px;
+	height: 80px;
+	border-radius: 100%;
+	outline: none;
+	cursor: pointer;
+	background: rgb(240, 239, 239);
+	transition: 1s ease-in-out;
+}
+.createGames:hover {
+	background: rgb(223, 3, 3);
+	color: white;
+}
+.gamesCreate {
+	width: 90px;
+	height: 80px;
+	border-radius: 100%;
+	outline: none;
+	cursor: pointer;
+	background: rgb(240, 239, 239);
+	transition: 1s ease-in-out;
+}
+
+.savedGames {
+	width: 90px;
+	height: 80px;
+	border-radius: 100%;
+	outline: none;
+	cursor: pointer;
+	background: rgb(240, 239, 239);
+	transition: 1s ease-in-out;
+}
+
+.savedGames:hover {
+	background: rgb(19, 216, 19);
+	color: white;
+}
+/* ---------------- */
+.gamesCreate:hover {
+	background: rgb(255, 230, 8);
+	color: white;
+}
+
+/* My navbar buttons */
+.posted {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	height: 10vh;
+	width: 100%;
+}
+/* 
+.hardcoded {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: green;
+} */
+
+/* .imageurl {
+	margin-top: 10px;
+	border: none;
+	border-bottom: 2px solid red;
+} */
+
+.post {
+	margin-top: 26px;
+	width: 60px;
+	height: 50px;
+	border-radius: 100%;
+	outline: none;
+	cursor: pointer;
+	background: rgb(240, 239, 239);
+	transition: 1s ease-in-out;
+}
+.post:hover {
+	background: rgb(38, 167, 38);
+	color: white;
+}
+/* ------round Circles----- */
+.formBtn {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 13px;
+}
+.reset {
+	margin-top: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s ease-in-out;
+	background: rgb(240, 239, 239);
+	width: 60px;
+	height: 50px;
+	border-radius: 100%;
+	outline: none;
+	cursor: pointer;
+	margin-left: 58px;
+}
+
+.reset:hover {
+	background: red;
+	color: white;
+}
+.gamescreated {
+	display: flex;
+	/* background: blue; */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 20vw;
+}
+/* Body t check where my component is  .body*/
+
+/* --------- */
+/* .card {
+	width: 15vw;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: space-between;
+	display: flex;
+} */
+
+.container {
+	background: rgb(166, 171, 196);
+	width: 250px;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+}
+
+button {
+	font-size: 14px;
+}
+
+input[type=text] {
+	border: none;
+	margin-top: 12px;
+	width: 60%;
+	padding: 10px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid red;
+	background: transparent;
+	outline: none;
+	font-size: 15px;
+}
+
+.titleGame {
+	font-size: 35px;
+	margin-right: 10px;
+	text-shadow: 0 0 0.2em #8f7;
+}
+
+.titlePicker {
+	font-size: 35px;
+	margin-left: 10px;
+	text-shadow: 0 0 0.2em #8f7;
+}
+
+.maincard {
+	display: flex;
+}
+
+.optionGames {
+	width: 130px;
+	height: 26px;
+	outline: none;
+	background: none;
+	font-size: 17px;
+	border: none;
+	border-bottom: 2px solid red;
+	margin-left: 29px;
+}
+
+.optionConsole {
+	width: 220px;
+	height: 26px;
+	outline: none;
+	background: none;
+	font-size: 17px;
+	border: none;
+	border-bottom: 2px solid red;
+}
+
+.typeOfGames {
+	font-size: 18px;
+	text-shadow: 0 0 0.2em #8f7;
+}
+
+.pickConsole {
+	font-size: 22px;
+	text-shadow: 0 0 0.2em #8f7;
+}
+
+.bodyPost {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+/* Buttons in GamesCreated.js */
+
+.save {
+	margin-right: 10px;
+	width: 120px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+.save:hover {
+	background: rgb(16, 211, 16);
+	color: white;
+}
+
+.hate {
+	width: 70px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+	width: 250px;
+	font-size: 20px;
+}
+.hate:hover {
+	background: red;
+	color: white;
+}
+
+.edit {
+	width: 120px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+
+.edit:hover {
+	background: rgb(255, 230, 8);
+	color: white;
+}
+
+/* ------------------- */
+
+.yourNamePlaceHolder {
+	width: 220px;
+	height: 26px;
+	outline: none;
+	background: none;
+	font-size: 17px;
+	border: none;
+	border-bottom: 2px solid red;
+}
+
+/* This is the css for SavedGames */
+.savedGame {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.nameEditOnClick {
+	cursor: pointer;
+}
